@@ -67,9 +67,6 @@
 			<!-- Footer -->
 			<?php require_once("all_footer.php"); ?>
 
-
-		</div>
-
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
