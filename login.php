@@ -110,8 +110,12 @@
 				$_SESSION['login']='Yes';
 				setcookie('uaccount',$uaccount,time()+17280);
 				header('Location: signup.php');
-			// elseif ($aid==$uaccount && $apsw==$upsw){
-			// 	header('Location: register.php');			
+
+			}elseif ($aid==$uaccount && $apsw==$upsw){
+				$_SESSION['adminlogin']='Yes';
+				setcookie('uaccount',$uaccount,time()+17280);
+				header('Location: admin.php');	
+
 			}else{
 				echo '帳號或密碼輸入錯誤';
 				header('Location: loginfail.php');

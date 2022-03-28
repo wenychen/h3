@@ -6,11 +6,11 @@
 		if($_SESSION['login']=='Yes'){
 			echo '<a href="logout.php">登出系統</a>';
 		}else{
-			echo '<a href="login.php">非法進入系統';
+			echo '<a href="login.php">非法進入系統，請登入會員';
 			exit();
 		}
 	}else{
-			echo '<a href="login.php">請登入會員';
+			echo '<a href="login.php">非法進入系統，請登入會員';
 			exit();
 	}
 
@@ -48,6 +48,7 @@
 						<div class="row aln-center">
 								<!-- Feature -->
 									<form action="rinfo.php" method="post" style="width: 80%;" enctype="multipart/form-data">
+
 											<table>
 												<tr>
 													<td>姓名</td>
