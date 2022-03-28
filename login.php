@@ -96,9 +96,9 @@
 		<?php
 
 		$uid='weny721210';
-		$upsw='12345';
+		$psw1='12345';
 		$aid='admin';
-		$apsw='23456';
+		$psw2='23456';
 
 
 		if(isset($_POST['uaccount'])){
@@ -106,12 +106,12 @@
 			$uaccount = $_POST['uaccount'];
 			$upsw = $_POST['upsw'];
 
-			if($uid==$uaccount && $upsw==$upsw){
+			if($uid==$uaccount && $psw1==$upsw){
 				$_SESSION['login']='Yes';
 				setcookie('uaccount',$uaccount,time()+17280);
 				header('Location: signup.php');
 
-			}elseif ($aid==$uaccount && $apsw==$upsw){
+			}elseif ($aid==$uaccount && $psw2==$upsw){
 				$_SESSION['adminlogin']='Yes';
 				setcookie('uaccount',$uaccount,time()+17280);
 				header('Location: admin.php');	
