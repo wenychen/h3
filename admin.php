@@ -40,11 +40,31 @@
 						<h1 id="logo">Welcome to Admin!</h1>
 					</div>
 				</section>
+				<section id="features">
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-6 col-8-medium col-12-small">
+
+								<!-- Feature -->
+								<header>
+																
+								</header>
+								<form action="" method="post" style="width: 60%; margin: 0px auto;" enctype="multipart/form-data">
+									<table>
+										<tr>
+											<img src="/h3/images/welcome.png" width="150px" height="150px">
+										</tr>
+									</table>
+								</form>		
+							</div>
+						</div>
+					</div>
+				</section>
 
 
 			<!-- Footer -->
 
-		</div>
+		<?php require_once("all_footer.php"); ?>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

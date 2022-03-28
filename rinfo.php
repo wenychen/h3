@@ -112,15 +112,14 @@
 											<td colspan="2"><input type="button" value="登入去！！" onclick="javascript:location.href='login.php'" style="width: 100%;"></td>
 										</tr>
 									</table>	
-								</section>
 							</div>
 						</div>
 					</div>
-
+				</section>
 
 			<!-- Footer -->
 
-		</div>
+		<?php require_once("all_footer.php"); ?>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

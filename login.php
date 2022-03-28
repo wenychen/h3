@@ -83,7 +83,7 @@
 
 			<!-- Footer -->
 
-		</div>
+		<?php require_once("all_footer.php"); ?>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
