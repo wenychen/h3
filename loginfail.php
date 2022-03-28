@@ -20,7 +20,7 @@
 
 						<!-- Nav -->
 						<?php require_once("all_head.php"); ?>
-						<h1 id="logo">會員登入失敗</h1>
+						<h1 id="logo">登入失敗</h1>
 					</div>
 				</section>
 
@@ -37,6 +37,9 @@
 								</header>
 								<form action="" method="post" style="width: 60%; margin: 0px auto;" enctype="multipart/form-data">
 									<table>
+										<tr>
+											<img src="/h3/images/fail.png" width="150px" height="150px">
+										</tr>
 										<tr>
 											<td><input type="button" value="重新登入" onclick="javascript:location.href='login.php'" style="width: 100%;"></td>
 										</tr>

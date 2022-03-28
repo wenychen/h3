@@ -32,7 +32,7 @@
 
 						<!-- Nav -->
 						<?php require_once("all_head.php"); ?>
-						<h1 id="logo">會員登入</h1>
+						<h1 id="logo">登入</h1>
 					</div>
 				</section>
 
