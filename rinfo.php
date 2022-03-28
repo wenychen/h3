@@ -28,7 +28,7 @@
 				<section id="features">
 					<div class="container">
 						<div class="row aln-center">
-							<div class="col-6 col-8-medium col-12-small">
+							<div class="col-8 col-10-medium col-12-small">
 
 								<!-- Feature -->
 								<header>
@@ -107,6 +107,9 @@
 												?>
 														
 											</td>
+										</tr>
+										<tr>
+											<td colspan="2"><input type="button" value="登入去！！" onclick="javascript:location.href='login.php'" style="width: 100%;"></td>
 										</tr>
 									</table>	
 								</section>

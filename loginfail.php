@@ -43,7 +43,6 @@
 										<tr>
 											<td><input type="button" value="重新登入" onclick="javascript:location.href='login.php'" style="width: 100%;"></td>
 										</tr>
-										</tr>
 										<tr>
 											<td colspan="2"><input type="button" value="忘記帳號與密碼" onclick="javascript:location.href='forget.php'" style="width: 100%;"></td>
 										</tr>
