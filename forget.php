@@ -8,7 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="NUKIM_php_homework">
     	<meta name="author" content="weny">
-    	<link rel="icon" href="/php_homework/web.login.register/images/login.png" type="image/x-icon"/>
+    	<link rel="icon" href="/h3/images/login.png" type="image/x-icon"/>
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="homepage is-preload">
